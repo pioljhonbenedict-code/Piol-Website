@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | HoopStart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-page">
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <h2 class="sidebar-title">DASHBOARD</h2>
+            <nav class="sidebar-menu">
+                <a href="dashboard.html" class="sidebar-link active">🏠 Overview</a>
+                <a href="#" class="sidebar-link">🏀 Training</a>
+                <a href="#" class="sidebar-link">⚙️ Equipment</a>
+            </nav>
+            <button class="logout-btn">← Log Out</button>
+        </div>
+
+        <div class="dashboard-top">
+            <div class="dashboard-logo">HOOPSTART</div>
+            <div class="dashboard-nav-pills">
+                <a href="dashboard.html" class="nav-pill active">🏠 Overview</a>
+                <a href="#" class="nav-pill">🏀 Training</a>
+                <a href="#" class="nav-pill">⚙️ Equipment</a>
+            </div>
+            <div class="profile-icon">👤</div>
+        </div>
+
+        <div class="dashboard-content">
+            <h1 class="section-heading">Overview</h1>
+            <h2 class="welcome-heading">Welcome to HoopStart!</h2>
+            <p class="welcome-text">Explore training guides, learn safety tips, and understand the game better</p>
+
+            <h3 class="featured-title">FEATURED TOPICS:</h3>
+            <div class="featured-cards">
+                <div class="featured-card">
+                    <div class="card-image" style="background: url('./dribble.jpg') center / cover;"></div>
+                    <h3>Dribbling</h3>
+                    <p>Learn the correct techniques to control the ball</p>
+                    <button class="learn-btn">Learn More</button>
+                </div>
+
+                <div class="featured-card">
+                    <div class="card-image" style="background: url('./layup.jpg') center / cover;"></div>
+                    <h3>Layup</h3>
+                    <p>Understand proper layup form and improve accuracy</p>
+                    <button class="learn-btn">Learn More</button>
+                </div>
+
+                <div class="featured-card">
+                    <div class="card-image" style="background: url('./safety.jpg') center / cover;"></div>
+                    <h3>Safety</h3>
+                    <p>Wearing proper equipment to avoid getting injured</p>
+                    <button class="learn-btn">Learn More</button>
+                </div>
+            </div>
+
+            <div class="dashboard-footer">
+                <div class="footer-text">
+                    <span class="help-icon">?</span>
+                    Have questions or need assistance?
+                </div>
+                <button class="contact-btn">Contact Us</button>
+            </div>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
